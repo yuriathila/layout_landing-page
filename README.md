@@ -1,24 +1,21 @@
-# Landing Page
+# Landing Page — B&O
 
-> ❗❗ You will complete this task in the **Landing** topic.
-> Now just choose a design and do the parts from the videos.
-> Note: in the first task of this topic you will find 4 examples of landing pages. Choose **only one** of them and create your page.
+Projeto desenvolvido dentro do tópico **Landing**, implementando a landing page da **B&O** bloco a bloco a partir do layout do Figma.
 
-Choose a design for your landing page:
+## Links
 
-- [MET landing](https://www.figma.com/file/lSR1m42L9YwzQwzzxKwHpw/THE-MET)
-- [MYBIKE landing](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
-- [B&O](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6817-212&t=ZTV6Gl8NzaWkJ4FK-0)
-- [Nothing](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6802-139&t=L7eKz5YKLN0m5WxR-0)
+- **Figma (B&O):** [BOSE-New-Version — B&O](https://www.figma.com/design/KLjDJx7pgRAG0tKfGCi1AR/BOSE-New-Version--c%C3%B3pia-?node-id=6817-214&t=FUDLj97OBYFVQEvs-0)
+- **Repositório:** [yuriathila/layout_landing-page](https://github.com/yuriathila/layout_landing-page.git)
+- **Demo Link:** [https://yuriathila.github.io/layout_landing-page/](https://yuriathila.github.io/layout_landing-page/)
 
-Follow the instructions in this and next lessons to implement the page block by block:
+## Como desenvolver
 
-- Here is [the design from the video](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6703-88&t=L7eKz5YKLN0m5WxR-0) (❗❗ DO NOT implement this design ❗❗ choose one of the options above ❗❗ ☝️)
-- Start writing styles in the `main.scss` file. It is be explained in the `Sass` lesson.
-- **DON'T** try to do it `Pixel Perfect` - implement it the most `simple` way so it looks similar.
-- When done check yourself using the [CHECKLIST](./checklist.md) when finished.
-- Deploy and create a Pull Request with a [DEMO LINK](https://<your_account>.github.io/layout_landing-page/).
+1. Siga as aulas deste e dos próximos tópicos para construir a página bloco a bloco.
+2. Escreva os estilos a partir do arquivo `main.scss` (conforme explicado na aula de **Sass**).
+3. **Não** foque em *pixel perfect* — priorize uma implementação simples, limpa e visualmente fiel ao layout.
+4. Ao finalizar, revise tudo usando o [CHECKLIST](./checklist.md) (ignore itens que não se aplicarem ao layout da B&O).
+5. Faça o deploy e abra o Pull Request com o link da demo acima.
 
-# Tips & Hints
-- Check `background-image: url()` to be relative to the `main.scss`. So should start with `../images`.
-- If some points from the checklist are not relevant to your design, just skip it.
+## Dicas
+
+- Caminhos em `background-image: url(...)` devem ser relativos ao `main.scss` (começando com `../images/...`).

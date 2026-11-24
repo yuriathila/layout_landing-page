@@ -1,0 +1,24 @@
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @include on-tablet {
+    height: 32px;
+    width: 32px;
+  }
+
+  &--phone {
+    background-image: url('../../assets/icons/iphone.png');
+  }
+  &--menu {
+    background-image: url('../../assets/icons/menu.png');
+  }
+
+  &--close {
+    background-image: url('../../assets/icons/close.png');
+  }
+}
